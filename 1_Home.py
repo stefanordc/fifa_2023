@@ -37,10 +37,7 @@ st.write("# FIFA 23 OFFICIAL DATASET! ⚽")
 st.sidebar.markdown("Desenvolvido por "
                     "[Stéfano Bruno](https://www.linkedin.com/in/stefano-bruno-mf/)")
 
-if st.sidebar.button("Acesse os dados no Kaggle"):
-    webbrowser.open_new_tab(
-        "https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data"
-    )
+if st.sidebar.link_button("Acesse os dados no Kaggle", "https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data")
 
 st.markdown(
     """
